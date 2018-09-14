@@ -1,0 +1,27 @@
+{
+  "name": "nujey-cp",
+  "version": "1.0.0",
+  "description": "'nujey对应的基于element 的组件库'",
+  "main": "./src/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nujey/nujey-cp.git"
+  },
+  "keywords": [
+    "vue",
+    "elementUI",
+    "nujey"
+  ],
+  "author": "nujey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nujey/nujey-vc/issues"
+  },
+  "homepage": "https://github.com/nujey/nujey-vc#readme"
+}
