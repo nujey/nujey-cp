@@ -1,7 +1,7 @@
 {
   "name": "nujey-cp",
-  "version": "1.0.0",
-  "description": "'nujey对应的基于element 的组件库'",
+  "version": "1.0.1",
+  "description": "'基于vue的组件库'",
   "main": "./src/index.js",
   "directories": {
     "lib": "lib"

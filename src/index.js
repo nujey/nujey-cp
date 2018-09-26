@@ -1,4 +1,5 @@
 import nujeyElPage from './nujey-el-page/index.vue'
+import nujeyXlsxExport from './nujey-xlsx-export/..'
 
 const nujeyCp = {
   install: function(Vue) {
@@ -6,6 +7,7 @@ const nujeyCp = {
       Vue = window.Vue
     }
     Vue.component('nujeyElPage', nujeyElPage)
+    Vue.component('nujeyXlsxExport', nujeyXlsxExport)
   }
 }
 
