@@ -1,5 +1,6 @@
 import nujeyElPage from './nujey-el-page/index.vue'
-import nujeyXlsxExport from './nujey-xlsx-export/..'
+import nujeyXlsxExport from './nujey-xlsx-export/index.vue'
+import nujeySendMsg from './send-msg/index.vue'
 
 const nujeyCp = {
   install: function(Vue) {
@@ -8,6 +9,7 @@ const nujeyCp = {
     }
     Vue.component('nujeyElPage', nujeyElPage)
     Vue.component('nujeyXlsxExport', nujeyXlsxExport)
+    Vue.component('nujeySendMsg', nujeySendMsg)
   }
 }
 

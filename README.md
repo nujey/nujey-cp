@@ -31,5 +31,15 @@
   exportName: 导出文件的名称 字符串
   exportTag: 到处表格的标签名称 字符串
   on-export: 返回的回调信息 成功还是失败
+## 发送短信带倒计时组件
+  ####
+  ```javascript
+    <send-msg :secondNum="10" :sendIsSuccess="isSendMsg" @send-start="handleSendMsg" @send-end="isSendMsg = false"></send-msg>
+  ```
+  secondNum: 倒计时的秒数
+  sendIsSuccess: 发送短信验证码是否成功
+  send-start: 开始发送验证码
+  send-end: 倒计时结束
+
 ## license
   MIT
